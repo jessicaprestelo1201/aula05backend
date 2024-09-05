@@ -25,5 +25,8 @@ const personagens = [
     }
     ]
 
+    app.get("/personagens",(req,res) => {
+        return res.status(200).send( personagens )
+        })
 
-    
+
